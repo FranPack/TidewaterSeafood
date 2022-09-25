@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --light-blue: #99d9eb;
+    --dark-blue: #003a5c;
+    --bs-font-sans-serif: 'Asap', sans-serif;
+}
+.color-light {
+    color: var(--light-blue);
+}
+.navigation {
+    display: block !important;
+}
+.navbar {
+    display: block!important;
+}
+.navbar-collapse {
+    display: block;
+    flex-grow: unset;
+}
+
+.nav-link[aria-current="page"] {
+    text-decoration: underline var(--light-blue);
+    text-underline-offset: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-collapse {
+        display: block!important;
+    }
+}
