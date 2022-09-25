@@ -27,5 +27,6 @@
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-collapse {
         display: block!important;
+        flex-basis: 100%;
     }
 }
