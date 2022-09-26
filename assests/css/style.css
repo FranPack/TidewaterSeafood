@@ -23,7 +23,36 @@
     text-decoration: underline var(--light-blue);
     text-underline-offset: 0.5rem;
 }
-
+.banner {
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.banner-back{
+    /*  */
+    background-image: url("/assests/media/img/banner.jpg");
+    width: 100%;
+    height: 300px;
+    /* filter: blur(2px);
+    -webkit-filter: blur(2px); */
+    background-position: 50% 55%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* ! Might Remove */
+.banner-back::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #21252771;
+}
+.banner-text {
+    position: absolute;
+    top: 0%;
+}
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-collapse {
         display: block!important;
