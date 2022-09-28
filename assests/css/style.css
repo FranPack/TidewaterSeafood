@@ -5,6 +5,9 @@
     --dark-blue: #114c6e;
     --bs-font-sans-serif: 'Barlow Semi Condensed', sans-serif;
 }
+body {
+    width: 100%;
+}
 .color-light {
     color: var(--light-blue);
 }
@@ -76,7 +79,8 @@ nav {
     color: white;
 }
 .menu-preview {
-    margin: 40px 70px;
+    padding: 40px;
+    width: 100%;
 }
 .menu-preview-img {
     width: 550px;
@@ -93,7 +97,18 @@ nav {
 }
 footer {
     background-color: var(--dark-blue);
-    margin: 0;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    width:100%;
+}
+.footer-titles {
+    width: 100%;
+}
+.footer, .footer-titles h4 {
+    width: 33.33vw;
+}
+.footer-text {
+    padding: 0;
 }
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-collapse {
