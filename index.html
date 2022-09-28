@@ -13,7 +13,7 @@
     <!-- ? Local CSS -->
     <link rel="stylesheet" href="/assests/css/style.css">
 </head>
-<body style="background-color: black;">
+<body>
     <header>
         <div class="banner-back"></div>
         <nav class="navbar-expand-md">
@@ -30,7 +30,7 @@
                     <div class="d-flex flex-column align-items-center mt-5 float-end fs-5">
                         <span>
                             <i class="fa-solid fa-clock color-light"></i>
-                            &nbsp;Monday - Sunday
+                            &nbsp;Tuesday - Sunday
                         </span>
                         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9am - 10pm</span>
                     </div>
@@ -54,7 +54,7 @@
         </nav>
     </header>
     <!-- TODO: Create Menu preview with button -->
-    <div class="menu-preview d-flex justify-content-between align-items-center">
+    <div class=" container-fluid menu-preview d-flex justify-content-between align-items-center">
         <div class="menu-preview-img"></div>
         <div class="menu-text d-flex flex-column align-items-center">
             <p class="menu-p">This is a menu preview</p>
@@ -62,19 +62,33 @@
         </div>
     </div>
     <!-- TODO: Footer -->
-    <footer class="d-flex justify-content-between align-items-center">
+    <footer class="container-fluid d-flex flex-column justify-content-between align-items-center py-3">
         <img src="/assests/media/img/logo.png" alt="" width="200">
-        <div class="d-flex">
-            <div class="footer footer-quick d-flex">
+        <div class="footer-titles d-flex text-white align-items-center text-center">
+                <h4>Quick Links</h4>
+                <h4>Visit Us</h4>
+                <h4>Follow Us</h4>
 
+        </div>
+        <div class="footer-text container-fluid d-flex justify-content-between align-items-center">
+            <div class="footer footer-quick d-flex flex-column text-center">
+                <a class="text-decoration-none color-light fw-bold color-light fs-5" href="/home">Home</a>
+                <a class="text-decoration-none color-light fw-bold color-light fs-5"  href="/menu">Menu</a>
+                <a class="text-decoration-none color-light fw-bold color-light fs-5" href="/Gallery">Gallery</a>
+                <a class="text-decoration-none color-light fw-bold color-light fs-5" href="/sitemap.xml">Sitemap</a>
             </div>
-            <div class="footer footer-contact d-flex">
-
+            <div class="footer footer-contact d-flex flex-column align-items-center text-center">
+                <!-- <span class="fw-bold">Tues - Sunday<br>9am - 10pm</span> -->
+                <span class="fw-bold color-light"> 123 Some Address Ln<br>Virginia Beach, VA 23451</span>
+                <a href="tel:+17577323663" class="text-decoration-none fw-bold color-light">+1 757 732 3663</a>
             </div>
-            <div class="footer footer-social d-flex">
-
+            <div class="footer footer-social d-flex text-center align-items-center justify-content-center">
+                    <a href="#"><i class="fa-brands fa-facebook-f fs-4 px-2 color-light p-2"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fs-4 color-light p-2"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter fs-4 color-light p-2"></i></a>
             </div>
         </div>
+        <span class="color-light">Designed and built by Francisco Rivera</span>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <script src="/assests/js/script.js"></script>
