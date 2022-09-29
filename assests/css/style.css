@@ -57,24 +57,32 @@ body {
     background: #21252779;
 }
 .banner-back, .banner-back::after {
-    height: 80vh;
+    height: 40vh;
+}
+.navbar-toggler {
+    color: var(--light-blue);
+    font-size: 30px;
 }
 nav {
     position: absolute;
     top: 0%;
     width: 100%;
 }
+.navbar-nav {
+    background-color: var(--dark-blue);
+    z-index: -1;
+}
 .banner {
     width: 100%;
     position: absolute;
-    top: 35vh;
+    top: 20vh;
 }
 .banner-text {
     width: 100%;
 }
 .banner-text {
     font-family: Satisfy;
-    font-size: 80px;
+    font-size: 40px;
     font-weight: 100;
     color: white;
 }
@@ -82,18 +90,18 @@ nav {
     padding: 40px;
     width: 100%;
 }
+.menu-text {
+    margin-top: 20px;
+}
 .menu-preview-img {
-    width: 550px;
-    height: 300px;
+    width: 60vw;
+    height: 40vw;
     border-radius: 5px;
     background-image: url("/assests/media/img/menu-preview.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
 
-}
-.menu-text {
-    margin-right: 100px;
 }
 footer {
     background-color: var(--dark-blue);
@@ -114,5 +122,31 @@ footer {
     .navbar-expand-md .navbar-collapse {
         display: block!important;
         flex-basis: 100%;
+    }
+    .logo {
+        width: 250px;
+    }
+    .menu-preview {
+        flex-direction: row!important;
+    }
+    .menu-preview-img {
+        width: 550px;
+        height: 300px;
+    }
+    .menu-text {
+        margin-right: 100px;
+    }
+    .banner-text {
+        font-size: 80px;
+
+    }
+    .banner-back, .banner-back::after {
+        height:80vh;
+    }
+    .banner {
+        top: 35vh;
+    }
+    .navbar-nav {
+        background-color: unset;
     }
 }
