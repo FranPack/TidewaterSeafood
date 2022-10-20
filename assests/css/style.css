@@ -84,7 +84,7 @@ nav {
     font-weight: 600;
 }
 .nav-tabs .nav-link.active {
-    color: unset;
+    color: var(--dark-blue);
 }
 .menu-section {
     margin: 20px 0;
