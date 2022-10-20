@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tidewater Seafood</title>
+    <link rel="shortcut icon" href="assests/media/img/favicon.png" type="image/x-icon">
+    <!-- ? BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- ? Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ? Local CSS -->
+    <link rel="stylesheet" href="assests/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="banner-back"></div>
+        <nav class="navbar-expand-md">
+            <div class="container-fluid d-flex justify-content-between align-items-center px-5">
+                <span class="text-white navbar-text collapse navbar-collapse mt-5 fs-5">
+                    <i class="fa-solid fa-phone color-light"></i>
+                    <!-- ? 757 732 3663 == 757 SEA FOOD -->
+                    <a href="tel:+17577323663" class="text-decoration-none">&nbsp;757 732 3663</a>
+                </span>
+                <a class="navbar-brand pt-2" href="#">
+                    <img class="logo" src="assests/media/img/logo.png" alt="Tidewater Seafood Logo" width="150">
+                </a>
+                <div class="text-white collapse navbar-collapse">
+                    <div class="d-flex flex-column align-items-center mt-5 float-end fs-5">
+                        <span>
+                            <i class="fa-solid fa-clock color-light"></i>
+                            &nbsp;Tuesday - Sunday
+                        </span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9am - 10pm</span>
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+            <div class="navbar navbar-dark">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav justify-content-center align-items-center fs-4 fw-semibold">
+                        <a class="nav-link text-white" href="index.html">Home</a>
+                        <a class="nav-link text-white" aria-current="page" href="menu.html">Menu</a>
+                        <a class="nav-link text-white" href="gallery.html">Gallery</a>
+                    </div>
+                </div>
+            </div>   
+            <div class="banner text-center">
+                <p class="banner-text">Menu</p>
+            </div> 
+        </nav>
+    </header>
+    <!--TODO: Menu -->
+    <div class="menu-section">
+        <div class="menu">
+            <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                <li class="nav-item" role="">
+                  <button class="nav-link active" id="apps-tab" data-bs-toggle="tab" data-bs-target="#apps-tab-pane" type="button" role="tab" aria-controls="apps-tab-pane" aria-selected="true">Appetizers</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="dish-tab" data-bs-toggle="tab" data-bs-target="#dish-tab-pane" type="button" role="tab" aria-controls="dish-tab-pane" aria-selected="false">Main Dishes</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="bevs-tab" data-bs-toggle="tab" data-bs-target="#bevs-tab-pane" type="button" role="tab" aria-controls="bevs-tab-pane" aria-selected="false">Beverages</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="dessert-tab" data-bs-toggle="tab" data-bs-target="#dessert-tab-pane" type="button" role="tab" aria-controls="dessert-tab-pane" aria-selected="false">Desserts</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <!--* Apperizers -->
+                <div class="tab-pane fade show active flex-wrap " id="apps-tab-pane" role="tabpanel" aria-labelledby="apps-tab" tabindex="0">
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img app"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Appetizer Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img app"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Appetizer Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img app"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Appetizer Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img app"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Appetizer Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img app"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Appetizer Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img app"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Appetizer Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img app"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Appetizer Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img app"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Appetizer Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                </div>
+                <!--* Main Dishes -->
+                <div class="tab-pane fade flex-wrap" id="dish-tab-pane" role="tabpanel" aria-labelledby="dish-tab" tabindex="0">
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img main"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Dish Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img main"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Dish Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img main"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Dish Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img main"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Dish Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img main"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Dish Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img main"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Dish Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img main"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Dish Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img main"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Dish Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                </div>
+                <!--* Beverages -->
+                <div class="tab-pane fade flex-wrap " id="bevs-tab-pane" role="tabpanel" aria-labelledby="bevs-tab" tabindex="0">
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img bev"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Beverage Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img bev"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Beverage Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img bev"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Beverage Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img bev"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Beverage Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img bev"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Beverage Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img bev"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Beverage Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img bev"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Beverage Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img bev"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Beverage Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                </div>
+                <!--* Desserts -->
+                <div class="tab-pane fade flex-wrap " id="dessert-tab-pane" role="tabpanel" aria-labelledby="dessert-tab" tabindex="0">
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img dessert"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Dessert Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img dessert"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Dessert Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img dessert"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Dessert Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img dessert"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Dessert Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img dessert"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Dessert Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img dessert"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Dessert Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img dessert"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Dessert Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+                    <div class="dish d-flex w-100">
+                        <div class="dish-img dessert"></div>
+                        <div class="dish-about">
+                            <div class="dish-text">
+                                <p class="dish-name">Dessert Name</p>
+                                <p class="dish-desc">Nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae.</p>
+                            </div>
+                            <p class="price">$100</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- TODO: Footer -->
+    <footer class="container-fluid d-flex flex-column justify-content-between align-items-center py-3">
+        <img src="assests/media/img/logo.png" alt="" width="200">
+        <div class="footer-titles d-flex text-white align-items-center text-center">
+                <h4>Quick Links</h4>
+                <h4>Visit Us</h4>
+                <h4>Follow Us</h4>
+
+        </div>
+        <div class="footer-text container-fluid d-flex justify-content-between align-items-center">
+            <div class="footer footer-quick d-flex flex-column text-center">
+                <a class="text-decoration-none color-light fw-bold color-light fs-5" href="index.html">Home</a>
+                <a class="text-decoration-none color-light fw-bold color-light fs-5"  href="menu.html">Menu</a>
+                <a class="text-decoration-none color-light fw-bold color-light fs-5" href="gallery.html">Gallery</a>
+                <a class="text-decoration-none color-light fw-bold color-light fs-5" href="sitemap.xml">Sitemap</a>
+            </div>
+            <div class="footer footer-contact d-flex flex-column align-items-center text-center">
+                <!-- <span class="fw-bold">Tues - Sunday<br>9am - 10pm</span> -->
+                <span class="fw-bold color-light"> 123 Some Address Ln<br>Virginia Beach, VA 23451</span>
+                <a href="tel:+17577323663" class="text-decoration-none fw-bold color-light">+1 757 732 3663</a>
+            </div>
+            <div class="footer footer-social d-flex text-center align-items-center justify-content-center">
+                    <a href="#"><i class="fa-brands fa-facebook-f fs-4 px-2 color-light p-2"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fs-4 color-light p-2"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter fs-4 color-light p-2"></i></a>
+            </div>
+        </div>
+        <span class="color-light">Designed and built by Francisco Rivera</span>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="assests/js/script.js"></script>
+</body>
+</html>    
