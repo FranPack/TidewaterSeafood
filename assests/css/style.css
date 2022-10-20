@@ -171,6 +171,7 @@ nav {
 }
 .price {
     font-weight: 700;
+    margin-left: 10px;
 }
 .tab-pane {
     margin: 0 50px;
